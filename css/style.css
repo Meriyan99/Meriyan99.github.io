@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
@@ -201,6 +202,25 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: professionRotate 13s ease-out infinite;
+}
+
+@keyframes professionRotate{
+    0%,20%{
+        transform: rotate(0deg);
+    }
+    25%,45%{
+        transform: rotate(-90deg);
+    }
+    50%,70%{
+        transform: rotate(-180deg);
+    }
+    75%,95%{
+        transform: rotate(-270deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
 }
 
 .home .profession-box .profession{
