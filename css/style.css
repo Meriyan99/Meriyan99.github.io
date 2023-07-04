@@ -18,6 +18,7 @@
     --main-color:#754ef9;
     --white-color:#fdfdfd;
     --shadow-color:rgba(0,0,0,.2);
+
 }
 
 .dark-mode{
@@ -278,7 +279,8 @@ section{
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 35%;
+    /* width: 35%; */
+    width: 31%; 
     pointer-events: none;
 }
 
