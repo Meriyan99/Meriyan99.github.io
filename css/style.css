@@ -366,6 +366,28 @@ span{
     color: var(--main-color);
 }
 
+/* added articles instead of services */
+.services-box img{
+    width: 100%;
+    transition: .5s ease;
+}
+
+.services-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--white-color);
+    border-radius: 50%;
+}
+
+.services-box a i{
+    font-size: 2rem;
+    color: #333;
+}
+/* end of added content */
+
 .services-box p{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
